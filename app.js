@@ -118,3 +118,7 @@ function colocarImagensPretoEBranco() {
         elementoImagens[i].classList.remove('item-selected');
     }
 }
+
+function investigar(nome) {
+    document.getElementById('nomePersonagem').value = nome;
+}
