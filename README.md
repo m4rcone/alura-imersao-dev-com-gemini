@@ -1,5 +1,5 @@
 ## Alura - Imersão Dev com Google Gemini
-Acesse aqui: em breve...
+Acesse aqui: (https://alura-imersao-dev-com-gemini.vercel.app/)
 # Dungeons & Dragons
 ![image](https://github.com/user-attachments/assets/88d1fea8-9812-4c1b-882f-f89157e43f4b)
 ## Descrição
