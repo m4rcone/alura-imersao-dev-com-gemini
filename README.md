@@ -1,5 +1,5 @@
 ## Alura - Imersão Dev com Google Gemini
-Acesse aqui: em breve...
+Acesse aqui: https://alura-imersao-dev-com-gemini.vercel.app/
 # Dungeons & Dragons
 ![image](https://github.com/user-attachments/assets/88d1fea8-9812-4c1b-882f-f89157e43f4b)
 ## Descrição
@@ -13,7 +13,6 @@ Com esse objetivo, criei uma página para pesquisar os principais personagens do
 [![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 ![JavaScript](https://img.shields.io/badge/javascript-333333?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Google Gemini](https://img.shields.io/badge/gemini-blue?style=for-the-badge&logo=)
 ## Agradecimentos
 - Guilherme Lima (Tech Educator e Professor na Alura e na USP)
 - Rafaella Ballerini (Instrutora front-end @ Alura)
