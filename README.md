@@ -1,7 +1,7 @@
 ## Alura - Imersão Dev com Google Gemini
 Acesse aqui: https://alura-imersao-dev-com-gemini.vercel.app/
 # Dungeons & Dragons
-![image](https://github.com/user-attachments/assets/88d1fea8-9812-4c1b-882f-f89157e43f4b)
+![image](https://github.com/user-attachments/assets/b7e6b5ba-0fbb-4653-80c5-818802c96dc3)
 ## Descrição
 Este projeto foi desenvolvido durante a Imersão Dev com Google Gemini, da Alura, onde o objetivo era aprender os conceitos básicos de HTML, CSS e JavaScript, com auxilio do Google Gemini. Durante a aula, aprendemos a fazer um buscador em uma base de dados JS. Tentei me desafiar criando um projeto com uma pequena base de dados mas que fosse bem executado, utilizando principalmente os conhecimentos da imersão.
 Com esse objetivo, criei uma página para pesquisar os principais personagens do clássico desenho A Caverna do Dragão de forma divertida, além de incluir um "Easter Egg" para você encontrar, tudo isso utilizandos uma temática em Pixel Art.
