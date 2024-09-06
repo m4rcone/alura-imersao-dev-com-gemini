@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/946dd3b075.js" crossorigin="anonymous"></script>
+    <title>D&D</title>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <h1>Dungeons & Dragons</h1>
+        </div>
+        <div class="header-input">
+            <input id="nomePersonagem" type="text" placeholder="Digite o nome de um personagem...">
+            <button onclick="pesquisarPersonagem()">
+                <i class="fa-solid fa-search"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="item-list">
+            <div class="item-list__img">
+                <img id="hank-img" class="item-img" src="scr/hank.png" alt="Hank" title="Hank">
+                <img id="sheila-img" class="item-img" src="scr/sheila.png" alt="Sheila" title="Sheila">
+                <img id="bobby-img" class="item-img" src="scr/bobby.png" alt="Bobby" title="Bobby">
+                <img id="eric-img" class="item-img" src="scr/eric.png" alt="Eric" title="Eric">
+                <img id="diana-img" class="item-img" src="scr/diana.png" alt="Diana" title="Diana">
+                <img id="presto-img" class="item-img" src="scr/presto.png" alt="Presto" title="Presto">
+            </div>
+        </section>  
+        <section id="search-content" class="search-content">
+            <section class="item-box">
+                <div class="item-box__content">
+                    <div class="item-box__content__img">
+                    </div>
+                    <div class="item-box__content__text">
+                        <div class="item-box__content__text__tilte">
+                            <h2>
+                                <span>O que você pode fazer</span>&nbsp; <i class="fa-regular fa-circle-question"></i>
+                            </h2>
+                        </div>
+                        <div class="item-box__content__text__description">
+                            <p><i class="fa-solid fa-star"></i>&nbsp; Pesquise os personagens do clássico desenho A Caverna do Dragão. Caso não saiba o nome, investigue as imagens.</p>
+                            <p><i class="fa-solid fa-egg"></i>&nbsp; Descubra o personagem secreto.</p>
+                            <p><i class="fa-solid fa-triangle-exclamation"></i>&nbsp; Não procure ele...</p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </section>
+        <section class="item-list">
+            <div class="item-list__img">
+                <img id="mestre-dos-magos-img" class="item-img item-img-hide" src="scr/mestre-dos-magos.png" alt="" title="Mestre dos Magos">
+            </div>
+        </section>    
+    </main>
+    <footer>
+        <p><a href="https://github.com/m4rcone/alura-imersao-dev-com-gemini" target="_blank"><i class="fa-solid fa-code"></i> Developed by m4rcone </a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
