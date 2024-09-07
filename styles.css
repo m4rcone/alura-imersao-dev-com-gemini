@@ -19,6 +19,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('scr/portal-gif.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .header-title h1 {
@@ -41,7 +45,7 @@ header {
     border: 1px solid #8B97A0;
     padding: 1rem;
     border-radius: 1.5rem;
-    background-color: #e0e0e0;
+    background-color: #e0e0e0be;
     color: #8B97A0;
     font-size: 1rem;
     box-sizing: border-box;
@@ -51,7 +55,7 @@ header {
     padding: 0.8rem 1.8rem;
     border: none;
     border-radius: 1.5rem;
-    background-color: #143d31;/**/
+    background-color: #143d31;
     color: #e0e0e0;
     font-size: 1.4rem;
     cursor: pointer;
@@ -59,7 +63,7 @@ header {
 }
 
 .header-input button:hover {
-    background-color: #31746e;/**/
+    background-color: #31746e;
     color: #e0e0e0;
 }
 
@@ -70,18 +74,19 @@ main {
 }
 
 .item-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
     margin-bottom: 3rem;
-    overflow-y: auto;
 }
 
 .item-list img {
     width: 8rem;
     height: 8rem;
+}
+
+.item-list__img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item-list .item-list__img .item-img {
@@ -93,7 +98,7 @@ main {
 }
 
 .item-list .item-list__img .item-img-hide {
-    filter: opacity(0.03);
+    filter: opacity(0.02);
 }
 
 .search-content {
@@ -121,8 +126,21 @@ main {
     overflow-y: auto;
 }
 
+.item-box__content__venger {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    background: #e0e0e0be;
+    background-image: url('scr/venger.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
 .item-box__content__img {
-    height: 15rem;
     padding: 1rem;
 }
 

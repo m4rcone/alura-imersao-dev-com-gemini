@@ -7,7 +7,7 @@ function pesquisarPersonagem() {
         let conteudoHTML = document.getElementById('search-content');
         conteudoHTML.innerHTML = 
         `<section class="item-box">
-            <div class="item-box__content">
+            <div class="item-box__content__venger">
                 <div class="item-box__content__img">
                 </div>
                 <div class="item-box__content__text">
