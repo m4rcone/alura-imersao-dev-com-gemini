@@ -2,9 +2,10 @@
 
 body {
     font-family: "Pixelify Sans", sans-serif;
-    background-color: #e0e0e0;
+    background-color: #113228;
     background-image: url('scr/bg.png');
     background-size:cover;
+    background-repeat: no-repeat;
     color: #143d31;
     margin: 0;
     padding: 0;
@@ -91,10 +92,12 @@ main {
 
 .item-list .item-list__img .item-img {
     filter: grayscale();
+    cursor: pointer;
 }
 
 .item-list .item-list__img .item-selected {
     filter: none;
+    cursor: pointer;
 }
 
 .item-list .item-list__img .item-img-hide {
@@ -178,4 +181,18 @@ footer {
 footer p a {
     text-decoration: none;
     color: #45474B;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    .item-box__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item-box__content__text {
+        width: auto;
+    }
+    .item-box__content__img {
+        display: flex;
+        justify-content: center;
+    }
 }
